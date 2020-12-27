@@ -15,3 +15,7 @@ ReactDOM.render(
   </Provider>,
 document.getElementById('root')
 ) 
+
+export function test(){
+  return null;
+}

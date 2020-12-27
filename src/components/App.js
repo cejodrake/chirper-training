@@ -27,4 +27,7 @@ function mapStateToProps({authedUser}){
   }
 }
 
+export function test(){
+  return null;
+}
 export default connect(mapStateToProps)(App)

@@ -8,3 +8,6 @@ const logger  = (store) => (next) => (action) => {
 }
 
 export default logger;
+export function test(){
+    return null;
+}

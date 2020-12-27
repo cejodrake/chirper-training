@@ -16,5 +16,4 @@ export function handleInitialData() {
             dispatch(hideLoading())
         })
     }
-
 }

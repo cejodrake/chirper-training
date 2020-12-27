@@ -23,3 +23,6 @@ export function formatTweet (tweet, author, authedUser, parentTweet) {
     }
   }
 }
+export function test(){
+  return null;
+}

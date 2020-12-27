@@ -9,7 +9,11 @@ import { TiHeartFullOutline } from 'react-icons/ti/index'
 import {handleToggleTweet} from '../actions/tweets';
 
 class Tweet extends Component {
-    handleLike = (e) => {
+  
+   test(){
+    return null;
+}
+  handleLike = (e) => {
       e.preventDefault()
   
       const { dispatch, tweet, authedUser } = this.props

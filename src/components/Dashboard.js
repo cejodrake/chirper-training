@@ -26,4 +26,8 @@ class Dashboard extends Component {
      }
  }
 
+ export function test(){
+    return null;
+}
+
 export default connect(mapStateToProps) (Dashboard)

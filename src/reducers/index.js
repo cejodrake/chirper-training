@@ -13,3 +13,7 @@ export default combineReducers({
     loadingBar:loadingBarReducer
     
 })
+
+export function test(){
+    return null;
+}

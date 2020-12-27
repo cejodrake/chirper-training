@@ -21,3 +21,6 @@ export default function users (state =  {} , action ){
             return state 
     }
 }
+export function test(){
+    return null;
+}
